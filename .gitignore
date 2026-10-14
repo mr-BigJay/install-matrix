@@ -1,0 +1,13 @@
+# Never commit installation secrets, Matrix signing keys, or user data
+.env
+*.env
+*.key
+*.pem
+*.db
+postgres-data/
+synapse-data/
+rtc/
+element/
+backups/
+*.bak
+*.log
